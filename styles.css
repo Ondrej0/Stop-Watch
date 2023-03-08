@@ -1,0 +1,61 @@
+:root {
+    --grey: rgb(83, 81, 90); 
+    --dar_grey: rgb(65, 65, 65); 
+    --red: rgb(197, 0, 0); 
+}
+
+* {
+    border: none;
+    padding: none;
+    box-sizing: border-box;
+    margin: none;
+}
+
+body{
+    background-color: var(--grey);
+}
+
+.stop-watch{
+    height: 250px;
+    width: 80%;
+    max-width: 500px;
+    background-color: var(--dar_grey);
+    margin: auto;
+    margin-top: 150px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    display: flex;
+    border-radius: 20px;
+    
+}
+
+.timer {
+    font-size: 70px;
+    color: whitesmoke;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--red);
+    color: aliceblue;
+    border: black solid 1px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.6;
+}
+
